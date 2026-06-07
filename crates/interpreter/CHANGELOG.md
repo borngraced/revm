@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [38.0.0](https://github.com/borngraced/revm/compare/revm-interpreter-v37.0.3...revm-interpreter-v38.0.0) - 2026-06-07
+
+### Added
+
+- add SSTORE gas-state policy hook ([#3734](https://github.com/borngraced/revm/pull/3734))
+
+### Fixed
+
+- *(interpreter)* use IntoAddress in pop_address to avoid const-eval panic ([#3735](https://github.com/borngraced/revm/pull/3735))
+
+### Other
+
+- make `GasStateTr` expose `StateLoad` ([#3737](https://github.com/borngraced/revm/pull/3737))
+
 ## [37.0.3](https://github.com/bluealloy/revm/compare/revm-interpreter-v37.0.2...revm-interpreter-v37.0.3) - 2026-05-26
 
 ### Added
